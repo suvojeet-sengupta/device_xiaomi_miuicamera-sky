@@ -9,6 +9,9 @@ include vendor/xiaomi/miuicamera-sky/BoardConfigVendor.mk
 
 MIUICAMERA_PATH := device/xiaomi/miuicamera-sky
 
+# Camera
+TARGET_CAMERA_PACKAGE_NAME := com.xiaomi.sessionparams.clientName
+
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
 
