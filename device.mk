@@ -15,6 +15,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
 
+# Device features
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/device_features/sky.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/sky.xml \
+    $(LOCAL_PATH)/configs/device_features/sky.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/sky.xml
+
 # Priv-app permission
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
